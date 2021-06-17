@@ -1,0 +1,17 @@
+body{ text-align: center;
+background-color: bisque;
+font-family: monospace;}
+table {
+    border: 2px solid black;
+    margin: auto;
+}
+tr ,td,th{
+    border-bottom:2px solid black ;
+}
+th{ background-color: cadetblue;}
+
+.selector{
+    background-color: cadetblue;
+    opacity: 75%;
+    
+}

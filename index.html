@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            CSS Selectors
+        </h1>
+    </header>
+    <main>
+        <section>
+            <h2>Selectors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Example</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="selector">type</td>
+                        <td> h1 / p / section </td>
+                        <td> title of element type</td>
+                    </tr>
+                    <tr>
+                        <td class="selector">Universal</td>
+                        <td> * </td>
+                        <td> chooses everything</td>
+                    </tr>
+                    <tr>
+                        <td class="selector">class</td>
+                        <td> .classtitle </td>
+                        <td> uses the class title</td>
+                    </tr>
+                    <tr>
+                        <td class="selector">id</td>
+                        <td> #idname </td>
+                        <td> uses the id title</td>
+                    </tr>
+                    <tr>
+                        <td class="selector">attribute</td>
+                        <td> [href] </td>
+                        <td> chooses all elements with the attribute</td>
+                    </tr>
+                    <tr>
+                        <td class="selector">pseudo classes</td>
+                        <td> h1:focus/ p:hover/ img:visited </td>
+                        <td>sets an action to the element</td>
+                    </tr>
+                </tbody>
+
+            </table>
+            
+        </section>
+        <section>
+            <h2>
+                Selector Info
+            </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Info</th>
+                        <th>Example</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="selector" rowspan="3">Chaining</td>
+                        <td> p.bier {...} </td>
+                        <td> chooses the paragraph with the 'bier' class</td>
+                    </tr>
+                    <tr>
+                        <td> .bier li {...} </td>
+                        <td> chooses all child li elements from the elment with the 'bier class' </td>
+                    </tr>
+                    <tr>
+                        
+                        <td> h1,p,article </td>
+                        <td> different selectors can be used together , just separate them with a comma </td>
+                    </tr>
+                    <tr>
+                        <td class="selector" rowspan="2">hierarchy</td>
+                        <td> id>class>element </td>
+                        <td> the id has the highest priority followed by the class and the the element types</td>
+                    </tr>
+                    <tr>
+                        
+                        <td> {color: red !important;} </td>
+                        <td> !important behind a value overwrites everythingelse no matter how spezified the selector is</td>
+                    </tr> 
+                </tbody>
+
+            </table>
+            
+        </section>
+    </main>
+    
+</body>
+</html>
